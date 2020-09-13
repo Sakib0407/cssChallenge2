@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #edf0f5;
+    position: relative;
+}
+
+.row1{
+  
+    flex: 0 0 16%;
+    background-color: #fff;
+    box-shadow: 0  1rem 3rem rgba(0,0,0,.1);
+
+
+}
+
+.row2 {
+   
+     flex: 0 0 66%;
+     box-shadow: 0  1rem 3rem rgba(0,0,0,.1);
+     
+}
+.row3{
+    flex: 0 0 18%;
+    background-color: #fff;
+    box-shadow: 0  1rem 3rem rgba(0,0,0,.1);
+
+}
